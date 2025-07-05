@@ -13,6 +13,7 @@ const LeftSidebar = () => {
 
 	useEffect(() => {
 		fetchAlbums();
+		console.log(albums);
 	}, [fetchAlbums]);
 
 	console.log({ albums });
